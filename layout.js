@@ -1,14 +1,12 @@
-var dataset = [10,20,30,40,50,60,70,80,90,100];
+var dataset = [25,30,10,15,20];
 
 var color = d3.scaleOrdinal(d3.schemeCategory10);
-
-//define the functions to get the right data format
 var pie = d3.pie(); 
 
-var width = 400;
-var height = 400;
+var width = 300;
+var height = 300;
 var outerRadius= width/2
-var innerRadius = 50;
+var innerRadius = 0;
 
 var arc = d3.arc()
     .innerRadius(innerRadius)
